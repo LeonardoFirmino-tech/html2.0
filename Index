@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Loja do Léo</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🛍️ Loja do Léo</h1>
+
+<table>
+<tr>
+    <th>Produto</th>
+    <th>Imagem</th>
+    <th>Descrição Completa</th>
+    <th>Preço</th>
+    <th>Quantidade</th>
+    <th>Subtotal</th>
+</tr>
+
+<tr>
+    <td>Smartphone</td>
+    <td><img src="https://via.placeholder.com/100"></td>
+    <td>
+        Smartphone moderno com tela grande de 6.5 polegadas, ideal para assistir vídeos e usar redes sociais. 
+        Possui câmera de alta resolução que tira fotos nítidas e grava vídeos em ótima qualidade. 
+        Conta com bateria de longa duração, permitindo uso durante todo o dia sem precisar recarregar. 
+        Indicado para quem quer um celular rápido, bonito e eficiente para tarefas do dia a dia e jogos leves.
+    </td>
+    <td id="preco1">1200</td>
+    <td>
+        <button class="menos" onclick="tirar(1)">-</button>
+        <span id="qtd1">0</span>
+        <button class="mais" onclick="colocar(1)">+</button>
+    </td>
+    <td id="sub1">0</td>
+</tr>
+
+<tr>
+    <td>Notebook</td>
+    <td><img src="https://via.placeholder.com/100"></td>
+    <td>
+        Notebook com desempenho equilibrado, equipado com processador eficiente e 8GB de memória RAM. 
+        Ideal para estudos, trabalhos escolares, navegação na internet e uso de programas básicos. 
+        Possui tela confortável para leitura e teclado prático para digitação. 
+        Recomendado para estudantes e usuários que precisam de um computador confiável para tarefas do dia a dia.
+    </td>
+    <td id="preco2">3000</td>
+    <td>
+        <button class="menos" onclick="tirar(2)">-</button>
+        <span id="qtd2">0</span>
+        <button class="mais" onclick="colocar(2)">+</button>
+    </td>
+    <td id="sub2">0</td>
+</tr>
+
+<tr>
+    <td>Headphone</td>
+    <td><img src="https://via.placeholder.com/100"></td>
+    <td>
+        Headphone com som de alta qualidade, oferecendo graves fortes e áudio limpo. 
+        Possui almofadas confortáveis que permitem uso por longos períodos sem incômodo. 
+        Conta com tecnologia de cancelamento de ruído, ajudando a bloquear sons externos. 
+        Ideal para ouvir música, assistir filmes, estudar ou jogar com maior imersão.
+    </td>
+    <td id="preco3">500</td>
+    <td>
+        <button class="menos" onclick="tirar(3)">-</button>
+        <span id="qtd3">0</span>
+        <button class="mais" onclick="colocar(3)">+</button>
+    </td>
+    <td id="sub3">0</td>
+</tr>
+
+</table>
+
+<h2>Total: R$ <span id="total">0</span></h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>

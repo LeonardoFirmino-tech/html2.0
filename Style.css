@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+img {
+    width: 100px;
+}
+
+/* botão vermelho */
+.menos {
+    background-color: red;
+    color: white;
+}
+
+/* botão verde */
+.mais {
+    background-color: green;
+    color: white;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
